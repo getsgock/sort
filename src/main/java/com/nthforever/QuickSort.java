@@ -58,6 +58,11 @@ public class QuickSort {
         return getTogether(ints,ints1);
     }
 
+    /**
+     * 生成随机数的下标
+     * @param array
+     * @return
+     */
     private static int generateL(int[] array){
         int length = array.length;
         Random random = new Random();
