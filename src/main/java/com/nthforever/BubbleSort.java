@@ -9,7 +9,7 @@ public class BubbleSort {
     public static void main(String[] args) {
         int[] a = new int[]{3,5,8,1,22,54,4,9,34,43,11,44};
 
-        int[] ints = bottomsort(a);
+        int[] ints = bubbleSort(a);
         for (int i=0;i<ints.length;i++){
             System.out.print(ints[i]);
             System.out.print(",");
